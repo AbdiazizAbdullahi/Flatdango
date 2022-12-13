@@ -8,23 +8,15 @@ you won't be able to buy ticket if it is sold out.
 ## Requirements
 -Create git hub repository(Make it public)
 -Add Collaborator(Technical Mentor)
--Make the neccessary files eg.JS, HTML & CSS                                                                      
+-Make the neccessary files eg.JS, HTML & CSS
+
 
 ## Installations
--Run;
-    npm install 
-to install some dependencies.
--To run this program install the json-server.
--Run this command on your Terminal
-    npm install json-server
--install Live Score extention if you don't have it.
+For this program you do not need to install anything.
 
 ## Running the program
--First get the server app and running.
--Run this in your Terminal;
-    json-server --watch db.json
--Then go live using Live Score extention to display the page on the Browser.
-
+-Run the following URL on the browser to access the program;
+(https://fabulous-croquembouche-a5e705.netlify.app/)
 
 
 ## Authors
