@@ -1,7 +1,7 @@
 
 
  function fetchFilms() {
-    fetch('http://localhost:3000/films')
+    fetch('https://api.npoint.io/0b2aef194151f5771a43/films/')
       .then(res => res.json())
       .then(data => renderFilms(data));
   }
@@ -68,10 +68,7 @@
           div.appendChild(filmCard);
 
         }
-        /*else if (filmCard.classList.contains('active')){
-          filmCard.classList.remove('active');
-          div.appendChild(filmCard);
-        }*/
+        
       
       });
       ul.appendChild(li);
