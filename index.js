@@ -9,7 +9,7 @@
 
 
   function renderFilms(data) {
-    let body = document.body;
+    const div = document.getElementById('card');
     const ul = document.getElementById('films');
     
 
@@ -59,16 +59,19 @@
 
 
       li.addEventListener('click', () => {
+        div.innerText=""
+        div.appendChild(filmCard);
          // Check if the filmCard has the "active" class
          if (!filmCard.classList.contains('active')) {
           // If it does not, add the "active" class and append the filmCard to the li element
           filmCard.classList.add('active');  
-          body.appendChild(filmCard);
+          div.appendChild(filmCard);
 
-        }else if (filmCard.classList.contains('active')){
-          filmCard.classList.remove('active');
-          body.appendChild(filmCard);
         }
+        /*else if (filmCard.classList.contains('active')){
+          filmCard.classList.remove('active');
+          div.appendChild(filmCard);
+        }*/
       
       });
       ul.appendChild(li);

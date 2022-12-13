@@ -1,4 +1,8 @@
-body {
+body{
+  background-image: url("/pexels-cottonbro-studio-3945321.jpg");
+}
+
+div {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -10,11 +14,12 @@ ul {
   margin: 0;
   padding: 5px;
   float: left;
-  width: 24%;
+  width: 30%;
+  margin-right: 10%;
 }
 li {
   cursor: pointer;
-  background-color: #011638;
+  background-color: #1a1a1b;
   color: #fff;
   padding: 5px;
   margin: 10px 0;
@@ -31,8 +36,8 @@ li:hover {
   box-shadow: 0 0 10px #7D2E68;
   margin: 10px;
   float: right;
-  width: 20%;
-  height: 550px;
+  width: 700px;
+  height: 555px;
   position: relative;
 }
 .active {
@@ -40,10 +45,10 @@ li:hover {
 }
 img {
   float: left;
-  margin-right: 10px;
+  margin: 10px;
   border-radius: 10px;
-  height: 300px;
-  width: 250px;
+  height: 540px;
+  width: 450px;
 }
 h2 {
   margin: 0;

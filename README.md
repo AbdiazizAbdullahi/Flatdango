@@ -1,12 +1,14 @@
 # Flatdango
 
 ## Introduction 
-This is a simple app that display names of animals.When clicked on one of the names it displays the detail of the animal.It also enables one to vote for the animal they want.
+This is a program that diplays a list of films and when clicked on one of them it shows the detail of the film.
+inside the detail card you can click on the 'Buy ticket' to but your ticket.
+you won't be able to buy ticket if it is sold out.
 
 ## Requirements
--Create git hub repository(Private one)
+-Create git hub repository(Make it public)
 -Add Collaborator(Technical Mentor)
--The neccessary JS, HTML & CSS                                                                      
+-Make the neccessary files eg.JS, HTML & CSS                                                                      
 
 ## Installations
 -Run;
@@ -22,6 +24,8 @@ to install some dependencies.
 -Run this in your Terminal;
     json-server --watch db.json
 -Then go live using Live Score extention to display the page on the Browser.
+
+
 
 ## Authors
 
